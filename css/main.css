@@ -15,7 +15,8 @@ span {
   text-transform: capitalize;
 }
 h4 {
-  color: #c49075;
+  color: #2b2b2b;
+  font-size: 28px;
 }
 p {
   color: #828282;
@@ -51,6 +52,10 @@ header h1 {
   color: #bbc085;
   padding: 65px 0 65px 25px;
 }
+header h1 a {
+  color:#bbc085;
+  text-decoration: none;
+}
 nav {
   float: right;
   padding: 75px 25px;
@@ -76,6 +81,14 @@ header h2 {
 }
 header h2 span {
   color: #2b2b2b;
+}
+header p {
+  width: auto;
+  font-family: 'Lora', serif;
+  font-size: 38px;
+  line-height: 50px;
+  color: #9b9b9b;
+  padding: 20px 65px 20px 65px;
 }
 
 /***** ABOUT *****/
@@ -171,4 +184,19 @@ header h2 span {
 #contact ul img {
   font-size: 32px;
   padding-right: 48px;
+}
+/***** WORK PAGE *****/
+.projects {
+  text-align: center;
+  padding-bottom: 40px;
+}
+.projects p {
+  font-size: 18px;
+  padding-bottom: 25px;
+}
+.projects h4 {
+  background: #f9ceb7;
+  padding: 20px;
+  font-style: italic;
+  margin-top: 0;
 }
